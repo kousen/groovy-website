@@ -18,6 +18,7 @@ menu {
     group('Socialize') {
         item 'Discuss on the mailing-list', 'mailing-lists.html',                               'fa-envelope'
         item 'Groovy Weekly newsletter',    'groovy-weekly.html',                               'fa-envelope-o'
+        item 'Groovy on Twitter',           'https://twitter.com/hashtag/groovylang',           'fa-twitter'
         item 'Events and conferences',      'events.html',                                      'fa-calendar'
         item 'Source code on GitHub',       'https://github.com/groovy/groovy-core',            'fa-github'
         item 'Report issues in Jira',       'contribute.html#reporting-issues',                 'fa-bug'
@@ -37,6 +38,7 @@ pages {
     page 'versioning', 'versioning', [category: 'Download']
     page 'indy', 'indy', [category: 'Download']
     page 'community', 'community', [category: 'Community']
+    page 'usergroups', 'usergroups', [category: 'Community']
     page 'groovy-weekly', 'groovy-weekly', [category: 'Community']
     page 'mailing-lists', 'mailing-lists', [category: 'Community']
     page 'contribute', 'contribute', [category: 'Community']
@@ -221,6 +223,22 @@ allEvents {
             <p>
             Then why not come to the 8th annual Groovy & Grails eXchange and be part of this passionate community of
             creators, founders, developers and enthusiasts.
+            </p>
+        '''
+    }
+        event('GR8Conf EU 2015') {
+        location 'Copenhagen, Denmark'
+        date 'June 2-4, 2015'
+        url 'http://gr8conf.eu/'
+        logo 'img/confs/gr8confeu2015.png'
+        description '''
+            <p>
+            Groovy, Grails and the related technologies have seen astounding growth in interest and adoption the past
+            few years, and with good reason. To spread the word even more we have created GR8Conf.
+            </p>
+            <p>
+            GR8Conf is an independent, affordable series of conferences.
+            It's dedicated to the technologies in the Groovy ecosystem.
             </p>
         '''
     }
