@@ -45,6 +45,7 @@ pages {
     page 'contribute', 'contribute', [category: 'Community']
     page 'hipchat', 'hipchat', [category: 'Community']
     page 'sponsors', 'sponsors', [category: 'Community']
+    page 'buildstatus', 'buildstatus', [category: 'Community']
     page 'faq', 'faq', [category: 'Documentation', docSections: documentationSections]
     page 'events', 'events', [category: 'Community', allEvents: allEvents]
     page 'api', 'api', [category: 'Learn', iframeTarget: 'http://docs.groovy-lang.org/docs/next/html/gapi']
@@ -175,6 +176,7 @@ ecosystem {
     project('GVM') {
         description 'GVM is a tool for managing parallel Versions of multiple Software Development Kits on most Unix based systems. It provides a convenient command line interface for installing, switching, removing and listing Candidates.'
         url 'http://gvmtool.net/'
+        logo 'img/ecosystem/gvmtool.png'
     }
 }
 
